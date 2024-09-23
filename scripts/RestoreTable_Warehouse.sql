@@ -22,8 +22,6 @@ CREATE TABLE table1clone AS CLONE OF mytable1 AT 'yyyy-mm-dd hh:mm:ss';
 
 /**********************************************************************************************************************
 Rename the original table: THIS AFFECT TIME TRAVEL. 
-To avoid time travel to be affected by the operation, ensure all the objects/queries etc that are referencing 
-the original table are now referencing the cloned one.
 **********************************************************************************************************************/
 --TIME TRAVEL DISRUPTION
 EXECUTE sp_rename 'originaltable_oldname','originaltable_newname';
