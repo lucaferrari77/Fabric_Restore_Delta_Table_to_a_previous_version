@@ -8,8 +8,8 @@ This depends on the Data retention for the lakehouse/Warehouse
 Due to data inconsistency, bug in the data process, user error etc, it might be necessary to restore the table as it was before the issue; with a Lakehouse the user can restore the table as it was before the issue happened easally using a notebook.
 With a warehouse this can be done using the T-SQL code and some intermediate step.
 
-Here how to restore a table in a lakehouse
-Here how to restore a table in a warehouse
+[Here how to restore a table in a lakehouse](scripts/RestoreTable_Lakehouse.ipynb)
+[Here how to restore a table in a warehouse](scripts/RestoreTable_Warehouse.sql)
 
 
    
